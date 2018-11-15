@@ -14,3 +14,6 @@ A packer project that creates a ```vagrant box``` with ```redis``` installed
 - File ```script/provision.sh``` :  a script that installs ```redis```
 - File ```template.json``` : a JSON file that configure the various components of Packer in order to create required machine images
 
+### TO DO
+
+- How to use the repo
