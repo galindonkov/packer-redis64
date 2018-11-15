@@ -40,4 +40,4 @@ A packer project that creates a ```vagrant box``` with ```redis``` installed
 
 ### TO DO
 
-- How to use the repo
+- Kitchen test
