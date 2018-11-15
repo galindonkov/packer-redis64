@@ -11,7 +11,7 @@ A packer project that creates a ```vagrant box``` with ```redis``` installed
 ### The repo is having following files
 
 - File ```http/preseed.cfg``` - a file for Ubuntu to self-install
-- File ```script/provision.sh``` :  a script that installs ```redis```
+- File ```script/provision.sh``` :  a script that installs ```redis application``` from package ```redis-server```
 - File ```template.json``` : a JSON file that configure the various components of Packer in order to create required machine images
 
 ### How to use the repo
