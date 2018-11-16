@@ -13,7 +13,9 @@ A packer project that creates a ```vagrant box``` with ```redis``` installed
 - File ```http/preseed.cfg``` - a file for Ubuntu to self-install
 - File ```script/provision.sh``` :  a script that installs ```redis application``` from package ```redis-server```
 - File ```template.json``` : a JSON file that configure the various components of Packer in order to create required machine images
-
+- File ```Gemfile``` : It contains the ruby version and all required by the kitchen bundlers
+- File ```.kitchen.yml``` : The kitchen testing configuration file
+- File ```test/integration/default/check_pkg.rb``` : a ruby program used by the kitchen to test whether the ```nginx``` is installed
 ### How to use the repo
 
 #### Note : Below steps have been applied on UbuntuOS, so in order to test it, please follow :
